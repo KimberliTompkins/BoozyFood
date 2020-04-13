@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="reset.css">
+  <title>BoozyFood</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.0/css/bulma.min.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <!-- <link rel="stylesheet" href="debug.css"> -->
+  <link rel="stylesheet" href="style.css">
+  <link href="jquery-ui.css" rel="stylesheet">
+  <style>
+    .fakewindowcontain .ui-widget-overlay {
+      position: absolute;
+    }
+  </style>
+  <link rel="icon" type="image/png" href="images/favicon.jfif">
+  <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="hero center has-background-warning">
+
+    <img src="images/bandf_logo.png" height="100px" width="180px">
+
+    <p class="is-size-3">
+      Boozy Food
+
+    </p>
+    <p class="is-size-6">
+      Create your perfect quarantazine without leaving home!
+
+    </p>
+  </div>
+
+  <section class="section is-paddingless-horizontal">
+    <div class="tile is-ancestor">
+      <div class="tile is-vertical ">
+        <div class="tile">
+          <div class="tile is-parent is-vertical">
+            <article class="tile is-child notification is-primary" id="foodTile">
+              <p class="title is-size-4">Generate a recipe based on the ingredients you have at home!</p>
+              <p>
+                <input id="searchBar" class="input is-rounded " type="text" placeholder="Ingredient here">
+              </p>
+              <p id="recipeHere"> </p>
+              <br>
+              <p class="subtitle">
+                <button type="button" class="recipe-btn button is-secondary">Generate Recipe</button>
+              </p>
+            </article>
+            <article class="tile is-child notification has-background-warning">
+              <p class="title">Random Drink Button</p>
+              <p class="subtitle">Click to create your concoction</p>
+              <p class="randDrinkBtn">
+                <button id="randDrink" class="button is-secondary" onclick="createDrinkDiv()">Random Drink!</button>
+
+              </p>
+              <div class="tile is-parent is-vertical" id="contentColumn">
+
+                <div class="drinksContainer is-8 is-warning is-vertical is-shadowless" id="drinksContainer">
+
+                  <div class="drinks is-warning is-child is-8 is-vertical is-shadowless" id="drinksDiv"></div>
+                  <p></p>
+                  <div class="drinksPic is-warning is-child is-shadowless" id="drinkPicDiv"></div>
+                  <p></p>
+                  <div class="drinkDisc is-box is-shadowless is-paddingless-top is-warning" id="drinkDisc"></div>
+
+
+                </div>
+              </div>
+
+            </article>
+          </div>
+          <div class="tile is-parent is-7">
+            <article class="tile is-child notification">
+
+
+              <div id="accordion">
+
+              </div>
+            </article>
+
+          </div>
+
+
+          <div class="tile is-parent is-vertical">
+            <article class="tile is-child notification is-primary" style="background-color: white; color:black">
+
+              <div class="content">
+                <figure class="image ">
+                  <img src="images/Cheers.png" alt="baby yoda vodka">
+                  <p>Baby Yoda Vodka</p>
+                </figure>
+
+
+              </div>
+
+              <div class="content">
+                <figure class="image ">
+                  <img src="images/corona-beer.jpg" alt="corona">
+                  <p>Stay calm and enjoy a Corona beer</p>
+                </figure>
+
+              </div>
+              <div class="content">
+                <figure class="image ">
+                  <img src="images/not-a-pet.jpg" alt="notapet">
+                  <p>Family Raises Pet; 2 years in Realize it's Not a Pet</p>
+                </figure>
+              </div>
+
+              <div class="content">
+                <figure class="image ">
+                  <img src="images/You won't believe.png" at="youwontbelieve">
+                  <p> Number 20 is UNBELIEVABLE!</p>
+                </figure>
+
+              </div>
+
+          </div>
+          </article>
+
+        </div>
+      </div>
+
+    </div>
+    </div>
+
+    </div>
+
+
+    </div>
+  </section>
+
+
+  </div>
+  </section>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="external/jquery/jquery.js"></script>
+  <script src="jquery-ui.js"></script>
+
+  <script src="script.js"></script>
+
+</body>
+
+
+</html>
