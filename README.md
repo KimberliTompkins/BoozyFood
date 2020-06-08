@@ -21,7 +21,7 @@ https://kimberlitompkins.github.io/BoozyFood/
 
 
 ## User Story
-I looked down in my home during the Quarantine.  I need a recipe based on the ingredients I already have at home
+I'm locked down in my home during the Quarantine.  I need a recipe based on the ingredients I already have at home
 
 ## Description
 
