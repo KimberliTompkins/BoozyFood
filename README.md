@@ -16,7 +16,7 @@ https://kimberlitompkins.github.io/BoozyFood/
 ## Deployed site
 [BoozyFood](https://kimberlitompkins.github.io/BoozyFood/)
 
-![BoozyFood](images/BoozyFood.png)
+![BoozyFood](images/BoozyFood.gif)
 
 
 
